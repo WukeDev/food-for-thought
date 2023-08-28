@@ -12,5 +12,5 @@ Nothing is free though sadly. During the first tutoring session, we hope to be i
 - Properly implemented form for tutoring candidates
 - Potential database for users and tutors
 - Looking to expand to multiple locations worldwide
-- Multiple Tutors with a large breatdth of expertise
+- Multiple Tutors with a large breadth of expertise
 - Hundreds of tutoring hours in experience
