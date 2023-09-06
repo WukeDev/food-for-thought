@@ -14,3 +14,19 @@ Nothing is free though sadly. During the first tutoring session, we hope to be i
 - Looking to expand to multiple locations worldwide
 - Multiple Tutors with a large breadth of expertise
 - Hundreds of tutoring hours in experience
+
+## Problem
+We aim to address the problem of a challenging education system.
+
+## AI Integration
+AI could potentially be used for generating ideas, guiding development, and in the actual creation of certain parts of the website.
+
+## Task List
+- Research ways to tutor effectively
+- Investigate ways to make it easy to schedule appointments
+- Finish the website design
+
+## Timeline
+- The first task would probably be ongoing for most of the duration of the project, since we hope to continuously improve our tutoring skills
+- This should take around a week to finalize the method and anywhere from a week to two weeks to implement
+- This would probably be ongoing throughout the semester, since we would constantly want to touch up the website, but the main bulk of it should take around three weeks, since the appointment scheduling system would have to be implemented into the website
