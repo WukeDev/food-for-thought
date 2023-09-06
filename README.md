@@ -16,7 +16,7 @@ Nothing is free though sadly. During the first tutoring session, we hope to be i
 - Hundreds of tutoring hours in experience
 
 ## Problem
-We aim to address the problem of a challenging education system.
+We aim to address the problem of students struggling in a challenging education system.
 
 ## AI Integration
 AI could potentially be used for generating ideas, guiding development, and in the actual creation of certain parts of the website.
