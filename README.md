@@ -22,11 +22,11 @@ We aim to address the problem of students struggling in a challenging education 
 AI could potentially be used for generating ideas, guiding development, and in the actual creation of certain parts of the website.
 
 ## Task List
-- Research ways to tutor effectively
-- Investigate ways to make it easy to schedule appointments
-- Finish the website design
+1. Research ways to tutor effectively
+2. Investigate ways to make it easy to schedule appointments
+3. Finish the website design
 
 ## Timeline
-- The first task would probably be ongoing for most of the duration of the project, since we hope to continuously improve our tutoring skills
-- This should take around a week to finalize the method and anywhere from a week to two weeks to implement
-- This would probably be ongoing throughout the semester, since we would constantly want to touch up the website, but the main bulk of it should take around three weeks, since the appointment scheduling system would have to be implemented into the website
+1. The first task would probably be ongoing for most of the duration of the project, since we hope to continuously improve our tutoring skills
+2. This should take around a week to finalize the method and anywhere from a week to two weeks to implement
+3. This would probably be ongoing throughout the semester, since we would constantly want to touch up the website, but the main bulk of it should take around three weeks, since the appointment scheduling system would have to be implemented into the website
