@@ -4,38 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food For Thought</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Your Website</h1>
-        <nav>
+        <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#schedule">Schedule a Session</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#developers">Developers</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>This is a brief description of our website.</p>
-        </section>
+    <section id="home" class="section">
+        <h1>Food For Thought</h1>
+        <p>Expand your mind with our diverse range of tutoring services.</p>
+    </section>
 
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
-    </main>
+    <section id="schedule" class="section">
+        <h2>Schedule a Session</h2>
+        <p>Book a tutoring session tailored to your needs.</p>
+        <!-- Add scheduling information here -->
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Discover our mission and dedication to fostering learning.</p>
+        <!-- Add information about the business and its values -->
+    </section>
+
+    <section id="developers" class="section">
+        <h2>Meet the Developers</h2>
+        <div class="developer">
+            <img src="developer1.jpg" alt="Developer 1">
+            <h3>Developer 1</h3>
+            <p>Passionate about education and technology.</p>
+            <!-- Add more information about the first developer -->
+        </div>
+        <div class="developer">
+            <img src="developer2.jpg" alt="Developer 2">
+            <h3>Developer 2</h3>
+            <p>Bringing innovative solutions to education.</p>
+            <!-- Add more information about the second developer -->
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2023 Food For Thought. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
