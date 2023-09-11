@@ -47,7 +47,7 @@ AI could potentially be used for generating ideas, guiding development, and in t
    - logo (1 week)
    - buttons (1 week)
    - image styling (1 week)
-4. Code the website(continuous)
+4. Code the website (continuous)
    - forms
    - layout
    - navigation
