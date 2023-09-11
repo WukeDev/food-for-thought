@@ -16,17 +16,40 @@ Nothing is free though sadly. During the first tutoring session, we hope to be i
 - Hundreds of tutoring hours in experience
 
 ## Problem
-We aim to address the problem of students struggling in a challenging education system.
+- We aim to satiate the hunger for knowledge that students may have.
+- after tutoring sessions, many times both the student and tutor are hungry. To solve this, we propose the student teaches the tutor about some food
+- It could be the student's favorite snack, a cultural dish or anything in between. All foods are welcome!
+- As tutors, we plan to learn more about the food and document everything on the website
+- Our main goal is to make tutoring less boring and more **tasty**
 
 ## AI Integration
-AI could potentially be used for generating ideas, guiding development, and in the actual creation of certain parts of the website.
+AI could potentially be used for generating ideas, guiding development, and in the actual creation of certain parts of the website. As of now, we plan to learn web development on our own, but AI could prove useful in teaching us. 
 
 ## Task List
-1. Research ways to tutor effectively
-2. Investigate ways to make it easy to schedule appointments
-3. Finish the website design
+1. Use and hone our tutoring skills
+2. Implement forms for scheduling and data entry
+3. Add a gallery for food and tutor showcases
+4. Learn and use graphic design
+5. Experiment with making a tutor coverage map
+6. Finish and learn about website design
+   - establish a site map
+   - use animations
+   - make the website appealing
+   - polish and squash bugs
+   
 
 ## Timeline
-1. The first task would probably be ongoing for most of the duration of the project, since we hope to continuously improve our tutoring skills
-2. This should take around a week to finalize the method and anywhere from a week to two weeks to implement
-3. This would probably be ongoing throughout the semester, since we would constantly want to touch up the website, but the main bulk of it should take around three weeks, since the appointment scheduling system would have to be implemented into the website
+1. Create skeleton website (1-2 weeks)
+2. Establish website style (1 week)
+   - color palette
+   - layout
+3. Add custom graphical elements (continuous)
+   - logo (1 week)
+   - buttons (1 week)
+   - image styling (1 week)
+4. Code the website(continuous)
+   - forms
+   - layout
+   - navigation
+   - pages
+5. Publish website (1 week)
