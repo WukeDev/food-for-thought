@@ -13,3 +13,9 @@ Made a styles.css file, index.html file, and script.js file. Made code in css an
 ### Week 3
 
 Made a log.
+
+
+
+### Week 4
+
+Worked on the style/theme for the website, created a design/layout for the website.
