@@ -11,8 +11,8 @@
 - made task list
 
 ### Week 4
-- Worked on the style/theme for the website, created a design/layout for the website.
-- found color palette
+- Worked on the style/theme for the website, created a design/layout for the website. [https://replit.com/@LukeWu5/food-for-thought#index.html](url)
+- found color palette (hoping to shift towards a salmon pink)
 
 ### Week 5
 - updated ReadMe
