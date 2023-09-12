@@ -27,11 +27,12 @@ AI could potentially be used for generating ideas, guiding development, and in t
 
 ## Task List
 1. Use and hone our tutoring skills
-2. Implement forms for scheduling and data entry
-3. Add a gallery for food and tutor showcases
-4. Learn and use graphic design
-5. Experiment with making a tutor coverage map
-6. Finish and learn about website design
+2. Do some market research on students and teachers
+3. Implement forms for scheduling and data entry
+4. Add a gallery for food and tutor showcases
+5. Learn and use graphic design
+6. Experiment with making a tutor coverage map
+7. Finish and learn about website design
    - establish a site map
    - use animations
    - make the website appealing
