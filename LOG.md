@@ -18,3 +18,4 @@
 - updated ReadMe
 - finalizing website layout
 - learning about CSS
+- taking free W3schools HTML course
