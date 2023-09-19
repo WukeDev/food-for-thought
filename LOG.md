@@ -19,3 +19,6 @@
 - finalizing website layout
 - learning about CSS
 - taking free W3schools HTML course
+
+### Week 6
+- working to create a navbar that looks like the one from [this site](https://plan8.se/work/the-harmonic-state/)
