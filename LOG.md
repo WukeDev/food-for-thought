@@ -24,4 +24,5 @@
 - working to create a navbar that looks like the one from [this site](https://plan8.se/work/the-harmonic-state/)
 - made an about.html page with elaboration on the project
 - added a link to the about page in the homepage navbar
-- leaning how to do animations through W3schools free CSS course
+- leaning how to do animations through W3schools free CSS course\
+- created a private repository for [practice](https://github.com/WukeDev/webdev-practice)
