@@ -16,9 +16,9 @@ $phpExcel->getDefaultStyle()->getFont()->setSize(14);
 
 //Setting description, creator and title
 
-$phpExcel ->getProperties()->setTitle("Vendor list");
+$phpExcel ->getProperties()->setTitle("Schedule");
 
-$phpExcel ->getProperties()->setCreator("Robert");
+$phpExcel ->getProperties()->setCreator("Luke, Aleksey");
 
 $phpExcel ->getProperties()->setDescription("Excel SpreadSheet in PHP");
 
@@ -36,15 +36,15 @@ $sheet = $phpExcel ->getActiveSheet();
 
 // Setting title of the sheet
 
-$sheet->setTitle('My product list');
+$sheet->setTitle('stuff');
 
 // Creating spreadsheet header
 
-$sheet ->getCell('A1')->setValue('Vendor');
+$sheet ->getCell('A1')->setValue('a');
 
-$sheet ->getCell('B1')->setValue('Amount');
+$sheet ->getCell('B1')->setValue('b');
 
-$sheet ->getCell('C1')->setValue('Cost');
+$sheet ->getCell('C1')->setValue('c');
 
 // Making headers text bold and larger
 
