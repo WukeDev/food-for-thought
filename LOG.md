@@ -34,3 +34,5 @@
 - comparing Google API google sheets editing vs. ExcelJS spreadsheet editing
 - ExcelJS seems more convenient and less setup but harder to learn
 - hard to get ExcelJS to work since "require" keyword doesn't work for web applications
+- organized all pages into folders for cleaner code
+- made sure to modify all file paths
