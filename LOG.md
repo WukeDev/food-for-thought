@@ -36,3 +36,4 @@
 - hard to get ExcelJS to work since "require" keyword doesn't work for web applications
 - organized all pages into folders for cleaner code
 - made sure to modify all file paths
+- found a source for using ExcelJS: https://builtin.com/software-engineering-perspectives/exceljs
