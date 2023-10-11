@@ -26,3 +26,11 @@
 - added a link to the about page in the homepage navbar
 - leaning how to do animations through W3schools free CSS course\
 - created a private repository for [practice](https://github.com/WukeDev/webdev-practice)
+
+### Week 7
+#### Backend
+- deleted php file with excel spreadsheet editor
+- researching Google API - need API key, client ID
+- comparing Google API google sheets editing vs. ExcelJS spreadsheet editing
+- ExcelJS seems more convenient and less setup but harder to learn
+- hard to get ExcelJS to work since "require" keyword doesn't work for web applications
