@@ -12,3 +12,5 @@ function stickNavbar() {
 
 // Listen for the "scroll" event and call the stickNavbar function
 window.addEventListener("scroll", stickNavbar);
+
+console.log('hi');
