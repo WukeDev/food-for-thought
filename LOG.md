@@ -26,3 +26,6 @@
 - added a link to the about page in the homepage navbar
 - leaning how to do animations through W3schools free CSS course\
 - created a private repository for [practice](https://github.com/WukeDev/webdev-practice)
+
+### Week 11
+- worked on MVP.md
