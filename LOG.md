@@ -37,3 +37,7 @@
 - organized all pages into folders for cleaner code
 - made sure to modify all file paths
 - found a source for using ExcelJS: https://builtin.com/software-engineering-perspectives/exceljs
+
+
+### Week 11
+- worked on MVP.md
