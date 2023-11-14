@@ -30,4 +30,15 @@ function schedule(date, time, name, email, subject, tutor) {
     worksheet.addRow({ date, time, name, email, subject, tutor });
 }
 
+fileList = document.getElementById("list");
+
+async function update() {
+    const blob = new Blob([fileList[0]], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=utf-8' });
+    const buffer = await blob.arrayBuffer();
+
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.load(buffer);
+}
+
+update();
 console.log('ayo');
