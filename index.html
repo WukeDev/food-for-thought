@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food For Thought</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food For Thought</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="schedule.html">Schedule a Session</a></li>
-                <li><a href="developers.html">Developers</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="section">
-        <h1>Food For Thought</h1>
-        <p>Feed your mind with our wide palette of tutoring services.</p>
-    </section>
 
-    <section id="schedule" class="section">
-        <h2>Schedule a Session</h2>
-        <p>Book a tutoring session tailored to your needs.</p>
-        <!-- Add scheduling information here -->
-    </section>
+<ul class = "navbar">
+  <li><a href = "about.html">About</a></li>
+  <li><a href = "index.html">Home</a></li>
+  <li><a href = "schedule.html">Schedule</a></li>
+</ul>
 
-    <section id="developers" class="section">
-        <h2>Meet the Developers</h2>
-        <div class="developer">
-            <img src="developer1.jpg" alt="Developer 1">
-            <h3>Developer 1</h3>
-            <p>Passionate about education and technology.</p>
-            <!-- Add more information about the first developer -->
-        </div>
-        <div class="developer">
-            <img src="developer2.jpg" alt="Developer 2">
-            <h3>Developer 2</h3>
-            <p>Bringing innovative solutions to education.</p>
-            <!-- Add more information about the second developer -->
-        </div>
-    </section>
+<div class="background">
+  <img src="https://www.stanford.edu/wp-content/uploads/2023/10/Hero-3-2-scaled.jpg">
+</div>
+<div class = "spacer"></div>
+<div id="home" class="section">
+  <h1>Food For Thought</h1>
+  <p>Feed your mind with our wide palette of tutoring services.</p>
+</div>
+<div id = "gallery" class="section">
+  <h3>See what's been cooking</h3>
+</div>
+<div class="slideContainer">
+  <div class="slide">
+    <img src="https://wallpaperfx.com/view_image/lake-louise-landscape-1920x1080-wallpaper-17297.jpg" >
+    <p class="caption">caption 1</p>
+  </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Your Website. All rights reserved.</p>
-            <p>This website is licensed under the <a href="LICENSE">GNU GPL-3.0</a>.</p>
-        </div>
-    </footer>
+  <div class="slide">
+    <img src="https://i.redd.it/99s7blyyxs111.jpg">
+    <p class="caption">caption 2</p>
+  </div>
 
-    <script src="src/script.js"></script>
+  <div class="slide">
+    <img src="https://wallpapercave.com/wp/YKJtSPc.jpg" >
+    <p class="caption">caption 3</p>
+  </div>
+
+  <a class="right" onclick="changeSlide(1)">&gt;</a>
+  <a class="left" onclick="changeSlide(-1)">&lt;</a>
+</div>
+
+<div id="schedule" class="section">
+  <h2>Interested?</h2>
+  <a href = "https://monkeytype.com"><p>Book a tutoring session for a little taste!</p></a>
+  <!-- Add scheduling information here -->
+</div>
+
+
+<div class="footer">
+    <p>&copy; 2023 Food For Thought. All rights reserved.</p>
+</div>
+
+
+<script src="script.js"></script>
 </body>
 </html>
