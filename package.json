@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "exceljs": "^4.3.0"
+    "exceljs": "^4.3.0",
+    "firebase": "^10.6.0"
   },
   "name": "food-for-thought",
   "description": "## Hook A free tutoring website with a yummy twist!",
   "version": "1.0.0",
   "main": "calendar.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
