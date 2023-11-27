@@ -1,7 +1,8 @@
 console.log("calendar");
 
-import { initializeApp } from "https://gstatic.com/firebasejs/10.6.0/firebase-app.js";
-import { getDatabase, ref, set } from "https://gstatic.com/firebasejs/10.6.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAg1aVHssem65Mcb8qumVNrmfcl7Mzg0E8",
@@ -15,16 +16,50 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
-function write(email, name, date, time) {
+console.log(analytics);
+
+// TODO: remove appointments that passed:
+//    - find passed timestamp in 'dates'
+//    - identify username
+//    - remove appointment from 'appointments'
+//    - remove timestamp from dates
+
+// TODO: if timestamp is filled, do not write
+//    - locate timestamp in 'dates'
+//    - if there is a username there, do not return the function early
+
+function write(username, name, timestamp) {
     const db = getDatabase();
-    const reference = ref(db, 'appointments/' + email);
+    
+    const reference1 = ref(db, "dates/" + timestamp);
+    set(reference1, {
+        username: username
+    });
 
-    set(reference, {
-        name: name,
-        date: date,
-        time: time
+    const reference2 = ref(db, "appointments/" + username + "/" + timestamp);
+    set(reference2, {
+        name: name
     });
 }
 
-write("alekseylopez2718@gmail.com", "Aleksey Lopez", "11/27", "8:00 pm");
+function read(username) {
+    const db = getDatabase();
+
+    const dbRef = ref(db);
+    get(child(dbRef, "appointments/" + username)).then((snapshot) => {
+        if(snapshot.exists()) {
+            console.log(snapshot.val());
+        } else {
+            console.log("No data available");
+        }
+    }).catch((error) => {
+        console.log(error);
+    });
+}
+
+write("alekseylopez", "Aleksey Lopez", "7:00 PM, Nov 11, 2022");
+write("lukewu", "Luke Wu", "8:00 PM, Nov 11, 2022");
+
+read("alekseylopez");
