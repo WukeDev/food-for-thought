@@ -74,7 +74,9 @@ h1, p, img {
   width: 100vw;
   height: auto;
   overflow: hidden;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 64px;
 
 }
 .spacer{
