@@ -41,3 +41,7 @@
 
 ### Week 11
 - worked on MVP.md
+
+### Week 13
+- completed majority of front end
+- back end integration still pending
