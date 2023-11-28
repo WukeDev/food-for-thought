@@ -59,7 +59,25 @@ function read(username) {
     });
 }
 
-write("alekseylopez", "Aleksey Lopez", "7:00 PM, Nov 11, 2022");
-write("lukewu", "Luke Wu", "8:00 PM, Nov 11, 2022");
+// write("alekseylopez", "Aleksey Lopez", "7:00 PM, Nov 11, 2022");
+// write("lukewu", "Luke Wu", "8:00 PM, Nov 11, 2022");
 
-read("alekseylopez");
+// read("alekseylopez");
+
+document.getElementById("submit").addEventListener("click", function() {
+  const username = document.getElementById("username").value;
+  const name = document.getElementById("name").value;
+  const date = document.getElementById("date").value;
+  const time = document.getElementById("time").value;
+
+  const timestamp = date + " " + time;
+
+  console.log(username + " " + name + " " + timestamp);
+
+  if(username == "" || name == "" || date == "" || time == "") {
+    console.log("incomplete form");
+    return;
+  }
+  
+  write(username, name, timestamp);
+});
