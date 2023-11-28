@@ -141,6 +141,7 @@ p {
   padding: 15px;
   transform: translateY(-50%);
   display: flex;
+  background-color: rgba(0,0,0,0.2)
 }
 .right{
   right: 0;
@@ -149,7 +150,7 @@ p {
   left: 0;
 }
 .right:hover, .left:hover{
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.9);
 }
 /* Footer Styles */
 .footer {
