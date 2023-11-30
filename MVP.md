@@ -50,3 +50,10 @@
 * We are currently learning the popular HTML, CSS and JS languages
 * If we were to start again, we would take a course on coding
 * On the back end, it would be nicer if the file structure was neater from the start
+
+##Todo
+- add better captions to the slideshow (potentially dynamic ones that the user can interact with)
+- get some better pictures for the tutors
+- make sign-up form more appealing
+- change our messages on Home page to make them more meaningful
+
