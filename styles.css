@@ -98,13 +98,18 @@ h1, p, img {
 h3{
   font-size: 50px;
 }
-
+title{
+  text-align: center;
+  position: relative;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 h1 {
-  font-size: 36px;
+  font-size: 120px;
   margin: 0;
   padding-top: 50px
 }
-
 p {
   font-size: 18px;
   color: #007EA7;
@@ -204,6 +209,7 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  color: #007EA7;
 }
 
 select {
@@ -211,7 +217,7 @@ select {
 }
 
 input[type="button"] {
-  background-color: #4caf50;
+  background-color: #007EA7;
   color: #fff;
   padding: 10px;
   border: none;
@@ -220,5 +226,30 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-  background-color: #45a049;
+  background-color: #007EA7;
+}
+
+form{
+  background-color: white;
+  color: #003249;
+}
+
+a{
+  font-size: 18px;
+  color: #003249;
+  margin: 0;
+  padding: 20px;
+  text-decoration: none;
+}
+a:link { 
+    text-decoration: underline; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+
+li a{
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
